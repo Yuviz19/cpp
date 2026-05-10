@@ -95,3 +95,21 @@ these are a collection of characters,
   - this is used to get a sequence of something, or until there is space or tab.
   - this treats space or tab as the EOL.
   - use cin >> variable.
+
+## Operators 
+- symbols that allow data manipulation and, it takes some operands
+  1. unary 
+  2. Binary
+  3. Ternary
+- based on the number of variables it take in
+
+- Arithmetic Operators
+  - +,-,*,/ and %
+- Assignment Operators
+  - =,+=,-=,*=,/= and %=
+- Relational Operators
+  - <,> <=, >=
+- Logical Operators
+  - && and || (and or)
+- Bitwise Operators
+  - used to do stuff with binary numbers
