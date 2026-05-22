@@ -2,7 +2,7 @@
 
 ## Introduction
 
-```cpp
+```c
 #include <iostream>
 int main() {
   std::cout << "hello world!" << std::endl;
@@ -113,3 +113,42 @@ these are a collection of characters,
   - && and || (and or)
 - Bitwise Operators
   - used to do stuff with binary numbers
+
+## Conditionals
+- use of if, else if ✅
+-- Ternary Operator 
+  - syntax => variable = (condition) ? exp_True : exp_False;
+
+-- switch-case
+- this is used to select one of many blocks of code
+- syntax
+```c
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+
+- break and default is are optional keywords.
+- break is used to break out of the switch blocks
+- default statement is used, when none of the case matches
+
+## Loops
+- while, do..while, for loops.
+- refer to the loop challenges.(not done till now)
+
+## Functions
+- syntax
+- returnType functionName(parameters){ //body }
+
+- void return type means empty and we return nothing.
+- refer to the code at ./my_Functions.cpp, ./my_Functions_two.cpp and ./my_Functions_three.cpp
+
+- the files are about basic functions, passing by reference and values too
+- lamda functions - refer to file ./lamda_func.cpp
